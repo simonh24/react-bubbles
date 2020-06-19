@@ -116,6 +116,7 @@ const ColorList = ({ colors, updateColors }) => {
         </form>
       )}
       <form onSubmit={onSubmit}>
+        <legend>add color</legend>
         <label>color name:
           <input
             type="text"
@@ -135,8 +136,9 @@ const ColorList = ({ colors, updateColors }) => {
           />
         </label>
         <br></br>
-
-        <button>Add</button>
+        <div className="button-row">
+          <button>Add</button>
+        </div>
       </form>
       <div className="spacer" />
     </div>
