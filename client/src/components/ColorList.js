@@ -25,6 +25,7 @@ const ColorList = ({ colors, updateColors }) => {
         updateColors([...colors, { ...addColor, id: colors.length + 1 }]);
         // updateColors(colors);
         console.log(colors)
+        setAddColor(initialAddColor);
       })
       .catch(err => console.log(err))
   }

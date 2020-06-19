@@ -18,7 +18,7 @@ const BubblePage = () => {
 
   useEffect(() => {
     getColors();
-}, [colorList])
+}, [])
 
   return (
     <>
